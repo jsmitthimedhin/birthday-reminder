@@ -1,4 +1,8 @@
-# BirthdayReminder
+# BirthdayReminder 1.0
+
+(Under construction)
+
+A test app to help me familiarize myself with Angular, built using a React app from https://react-projects-1-birthday-reminder.netlify.app/ as a model for what I want to achieve, design and functionality wise. Please note that this project is unfinished and will need to be revised for cleaner code.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
