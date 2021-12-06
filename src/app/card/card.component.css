@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:host {
+    font-family: 'Roboto';
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-right: 9em;
+}
+
+button {
+    color: whitesmoke;
+    display: block;
+    width: 90%;
+    border-color: transparent;
+    background: #f28ab2;
+    margin: 2rem auto 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    letter-spacing: .1rem;
+    border-radius: 0.25rem;
+    outline: 1px solid rgba(242,138,178,.8);
+    cursor: pointer;
+}

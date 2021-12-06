@@ -1,0 +1,9 @@
+<h2>5 Birthdays today</h2>
+<div class="app-persons" *ngIf="!clearAll">
+    <app-person></app-person>
+    <app-person></app-person>
+    <app-person></app-person>
+    <app-person></app-person>
+    <app-person></app-person>
+</div>
+<button (click)="onBtnClick()">Clear All</button>
