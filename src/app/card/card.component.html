@@ -1,9 +1,10 @@
-<h2>5 Birthdays today</h2>
-<div class="app-persons" *ngIf="!clearAll">
-    <app-person></app-person>
-    <app-person></app-person>
-    <app-person></app-person>
-    <app-person></app-person>
-    <app-person></app-person>
-</div>
-<button (click)="onBtnClick()">Clear All</button>
+    <h2>5 Birthdays today</h2>
+    <div *ngIf="!cardIsCleared" class="app-persons">
+        <app-person></app-person>
+        <app-person></app-person>
+        <app-person></app-person>
+        <app-person></app-person>
+        <app-person></app-person>
+    </div>
+    <button (click)="clearAll()">Clear All</button>
+    <button (click)="generatePersons()" *ngIf="cardIsCleared">Rerender Persons</button>

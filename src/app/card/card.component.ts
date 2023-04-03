@@ -6,9 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
-  clearAll = false;
+  cardIsCleared = false;
 
-  onBtnClick() {
-    this.clearAll = true;
+  clearAll() {
+    this.cardIsCleared = true;
+  }
+
+  generatePersons() {
+    this.cardIsCleared = false;
   }
 }
