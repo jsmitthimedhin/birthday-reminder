@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
   clearAll = false;
-  constructor() { }
 
   onBtnClick() {
     this.clearAll = true;

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'birthday-reminder';
+  renderApp = false;
+
+  onBtnClick() {
+    this.renderApp = true
+  }
 }

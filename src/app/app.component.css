@@ -5,3 +5,19 @@
     position: relative;
     height: 100vh;
 }
+
+button {
+    color: rgb(252, 252, 252);
+    display: block;
+    width: 20%;
+    min-width: fit-content;
+    border-color: transparent;
+    background: #000000;
+    margin: 2rem auto 0;
+    font-size: 1.2rem;
+    padding: 3rem;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+    outline: 1px solid rgba(237, 84, 143, 0.8);
+    cursor: pointer;
+}

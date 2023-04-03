@@ -21,9 +21,6 @@ export class PersonComponent implements OnInit {
   }
 
   getUsers() {
-    // To do: Clean this code up to make it cleaner -- this was done to prevent the TypeError from occuring whenever
-    // the user is an 'any' type rather than an object with predefined qualities.
-    
     this.service.getUsers().subscribe((user: any) => {
       this.user.firstName = user.results[0].name.first;
       this.user.lastName = user.results[0].name.last;
